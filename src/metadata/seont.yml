@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/seont
+
+idspace: SEONT
+base_url: /obo/seont
+
+products:
+- seont.owl: https://raw.githubusercontent.com/AgriculturalSemantics/seont/master/seont.owl
+- seont.obo: https://raw.githubusercontent.com/AgriculturalSemantics/seont/master/seont.obo
+
+term_browser: ontobee
+example_terms:
+- seont_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/AgriculturalSemantics/seont/v
+
+- prefix: /tracker/
+  replacement: https://github.com/AgriculturalSemantics/seont/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/SEONT?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/AgriculturalSemantics/seont/master/
