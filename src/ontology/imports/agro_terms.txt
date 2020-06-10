@@ -1,4 +1,7 @@
-AGRO:0000000
-AGRO:0000001
-AGRO:0000002
-
+http://purl.obolibrary.org/obo/AGRO_00000325
+http://purl.obolibrary.org/obo/AGRO_00000008
+http://purl.obolibrary.org/obo/AGRO_00000035
+http://purl.obolibrary.org/obo/AGRO_00000069
+http://purl.obolibrary.org/obo/AGRO_00000070
+http://purl.obolibrary.org/obo/AGRO_00000116
+http://purl.obolibrary.org/obo/AGRO_00000378

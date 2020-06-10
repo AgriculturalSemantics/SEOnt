@@ -3135,6 +3135,54 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A pest control process in which organisms are employed to manage unwanted organisms.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">biological control</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">biological pest control</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">biological pest control process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A pest control process in which organisms are employed to manage unwanted organisms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Biological_pest_control</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.cals.ncsu.edu/course/ent425/text19/biocontrol.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AGRO_00002071"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which unwanted organisms are controlled.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">pest control</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">pest control process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A planned process in which unwanted organisms are controlled.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pest_control</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/AGRO_00000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000032">
@@ -3148,6 +3196,22 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedTarget xml:lang="en">A plant anatomical entity that is defined to mean plants or parts of plant capable of and intended for producing or reproducing entire plants.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://ec.europa.eu/dgs/health_food-safety/pressroom/docs/proposal_aphp_en.pdf</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organism that is realized in an agricultural process where the organism is unwanted.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pest role</rdfs:label>
+    </owl:Class>
     
 
 
@@ -3168,6 +3232,56 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A plan specification which describes how water is applied to plants or soil.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">irrigation method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organism that is realised in a pest control process where that organism is used to suppress unwanted organisms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">biological pest control agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an environmental material that is realised in a land preparation process where that environmental material is applied to soil in order to neutralize soil acidity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">liming role</rdfs:label>
     </owl:Class>
     
 
@@ -3626,6 +3740,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <obo:IAO_0000115 xml:lang="en">An experiment in which a scientific method is implemented for testing certain agricultural phenomena.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">agronomic experiment</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">agricultural experiment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Roled performed by a person during an experiment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">person role within the experiment</rdfs:label>
     </owl:Class>
     
 
@@ -10878,7 +11002,7 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000114"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A field which is located on land and used for agricultural purposes, such as the grazing of livestock or the cultivation of crops.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Field_%28agriculture%29</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Field_%28agriculture%29</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000114"/>

@@ -1,2 +1,7 @@
-ENVO:00001998
-
+http://purl.obolibrary.org/obo/ENVO_01000635
+http://purl.obolibrary.org/obo/ENVO_00000078
+http://purl.obolibrary.org/obo/ENVO_01000987
+http://purl.obolibrary.org/obo/ENVO_00000073
+http://purl.obolibrary.org/obo/ENVO_00003074
+http://purl.obolibrary.org/obo/ENVO_01000457
+http://purl.obolibrary.org/obo/ENVO_01000665

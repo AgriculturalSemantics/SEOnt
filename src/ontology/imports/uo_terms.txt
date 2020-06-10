@@ -1,2 +1,4 @@
-UO:0010003
-
+http://purl.obolibrary.org/obo/UO_0000000
+http://purl.obolibrary.org/obo/UO_0000009
+http://purl.obolibrary.org/obo/UO_0000047
+http://purl.obolibrary.org/obo/UO_0000187

@@ -1,4 +1,2 @@
-FOODON:0000000
-FOODON:0000001
-FOODON:0000002
-
+http://purl.obolibrary.org/obo/FOODON_03411134
+http://purl.obolibrary.org/obo/FOODON_03420164
